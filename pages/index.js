@@ -8,7 +8,7 @@ export default function Home() {
  <Head>
    <title>Aqeel - SovTech</title>
    <meta name="description" content="Assignment for SovTech grad program" />
-   <link rel="icon" href="/favicon.ico" />
+   <link rel="icon" href="/myfavicon.ico" />
  </Head>
 
   <main className={styles.main}>
