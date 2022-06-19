@@ -79,14 +79,14 @@ export default function Home() {
                    development, database creation and hosting, application security, and cloud computing.
                    The software development modules focused on Mean stack and .net core development. The more theory-based modules focused
                     on data structure and algorithms,
-                   project management, and OOP programming principles.The higher certificate focused on IT Support Services, business communication and end-user computing.
+                   project management, and OOP programming principles.The higher certificate focused on IT Support (A+,N+), business communication and end-user computing.
                  </p>
                
                  <p>
                  I completed both the Degree and Higher Certificate at an average above80% with distinction.
                  </p>
                  <p>For more detail, My transcripts and certificates are attached in the link below:</p>
-                 <a href="" className={styles.linkstyles}>Transcripts and Certificates</a>
+                 <a href="https://1drv.ms/u/s!AqC0spV8rNs3mcYTBNDKqpU0g9L7yw?e=KXzkfY" className={styles.linkstyles}>Transcripts and Certificates</a>
            </div>
           
            
@@ -121,7 +121,7 @@ export default function Home() {
         
 
       </main>
-      
+
       <footer className={styles.footer}>
         <h2>Check out the relevant links below:</h2>
         <p>
