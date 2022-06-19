@@ -2,7 +2,6 @@
   padding: 0rem;
 }
 
-
 .main {
   min-height: 100vh;
   flex: 1;
@@ -11,7 +10,6 @@
   background-color: #014eb5;
   color: #ffffff;
 }
-
 
 .landingsection{
   height: 100vh;
@@ -31,7 +29,6 @@
   flex-wrap: wrap;
   max-width: 1200px;
 }
-
 
 .imagecard {
   max-width: 300px;
@@ -61,7 +58,6 @@
   line-height: 1.15;
   font-size: 4rem;
 }
-
 
 .midsection{
   height: 100vh;
@@ -129,4 +125,3 @@
   background-size: cover;
   background-image: url(../public/footer.svg);
 }
-
