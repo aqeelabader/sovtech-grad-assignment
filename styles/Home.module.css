@@ -125,3 +125,31 @@
   background-size: cover;
   background-image: url(../public/footer.svg);
 }
+
+@media (max-width: 1150px){
+  .midsection{
+    height: fit-content;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+}
+
+@media (max-width: 1150px){
+  .card{
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 1150px){
+  .lastsection{
+    height: fit-content;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+}
+
+@media (max-width: 1150px){
+  .widecard{
+    padding: 1.5rem;
+  }
+}
