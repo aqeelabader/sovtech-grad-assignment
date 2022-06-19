@@ -118,3 +118,15 @@
   max-width: 1200px;
 }
 
+.footer{
+  height: 300px;
+  width: 100%;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  background-size: cover;
+  background-image: url(../public/footer.svg);
+}
+

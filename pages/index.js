@@ -121,6 +121,39 @@ export default function Home() {
         
 
       </main>
+      
+      <footer className={styles.footer}>
+        <h2>Check out the relevant links below:</h2>
+        <p>
+        <a
+          href="https://github.com/aqeelabader"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span>
+            <Image src="/github.svg" alt="Github" width={40} height={40} />
+          </span>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/aqeelabader/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span>
+            <Image src="/linkedin.svg" alt="LinkedIn" width={40} height={40} />
+          </span>
+        </a>
+        <a
+          href="https://www.aqeelabader.co.za/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span>
+            <Image src="/website.png" alt="MySite" width={40} height={40} />
+          </span>
+        </a>
+        </p>
+      </footer>
        
     </div>
   )
