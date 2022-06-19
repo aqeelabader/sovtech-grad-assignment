@@ -19,6 +19,33 @@ export default function Home() {
           </div>
         </section>
 
+        
+        <section className={styles.landingsection}>
+
+        {/* intro cards */}
+        <div className={styles.grid}>
+
+          <div className={styles.imagecard}>
+          <Image src="/me.jpg" alt="me" width={450} height={450} style={{borderRadius: 230}}/>
+          </div>
+          
+          <div className={styles.paragraphcard}>
+            <h1 className={styles.title}>
+            Hi! Im Aqeel Abader
+            </h1>
+              <h2>Im a Software Developer</h2>
+                <p>I have recently completed a Degree in Computer and Information Sciences in Application Development 
+                  at the IIE’s Varsity College - graduated with distinction, I have also completed a Higher Certificate 
+                  in IT Support Services - graduated as one of the top 10 students with distinction, and I have completed Matric.
+                 </p>     
+           </div>
+
+        </div>
+        {/* end intro cards */}
+        
+        </section>
+        
+
       </main>
        
     </div>

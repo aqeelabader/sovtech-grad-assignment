@@ -11,3 +11,53 @@
   background-color: #014eb5;
   color: #ffffff;
 }
+
+
+.landingsection{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-image: url(../public/circuitboard.svg);
+}
+
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+}
+
+
+.imagecard {
+  max-width: 300px;
+  margin-right: 2rem;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(145deg, #2B2B2B, #212121);
+  border-radius: 100%;
+  box-shadow: 19.22px 19.22px 84px #131313, -19.22px -19.22px 84px #393939;
+
+}
+
+.paragraphcard {
+  margin: 1rem;
+  padding: 1.5rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  max-width: 700px;
+  background: radial-gradient(#505050, #363636);
+  border-radius: 18px;
+  box-shadow: 19.22px 19.22px 84px #131313, -19.22px -19.22px 84px #393939;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+}
