@@ -61,3 +61,60 @@
   line-height: 1.15;
   font-size: 4rem;
 }
+
+
+.midsection{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-image: linear-gradient(to bottom, #0d2d53, #002c62, #002a6f, #00267b, #1d1e85, #42167f, #580c77, #69006f, #74005c, #780c4b, #771c3e, #722936);
+}
+
+.card {
+  margin: 2rem;
+  padding: 4rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  max-width: 500px;
+  background: transparent;
+  border-radius: 18px;
+  box-shadow: 20.42px 20.42px 47px #6EA6B8, -20.42px -20.42px 47px #C4FFFF;
+}
+
+.smalltitle {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 3rem;
+}
+
+.linkstyles{
+  color: #000000;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.lastsection{
+  height: 468px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-image: url(../public/worldmap.svg);
+}
+
+.widecard {
+  margin: 2rem;
+  padding: 4rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  max-width: 1200px;
+}
+

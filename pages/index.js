@@ -44,6 +44,80 @@ export default function Home() {
         {/* end intro cards */}
         
         </section>
+
+        
+        <section className={styles.midsection}>
+
+
+        <div className={styles.grid}>
+        
+           <div className={styles.card}>
+            <h1 className={styles.smalltitle}>
+            Why join SovTech?
+            </h1>
+              <h2>Latest Development practices, Experience, Culture</h2>
+                <p>SovTech clearly emphasizes the importance of modern development through 
+                  things like Web3, which from a developers perspective is very important as
+                   it means SovTech is likely to continue growing and will be a good company
+                    to work with for a long time.
+                 </p>One of my friends who works at SovTech invited me to the SovTech 
+                 hackathon which I attended on Friday the 10th, and I got to speak with some of
+                  the previous graduates and other developers, and they all spoke about the
+                   experience they have had learning new skills and the overall culture of
+                    working at SovTech which has been described as 
+                    a “collaborative, helpful, community”…sounds really good.
+                 <p>I think I will definitely learn a lot at SovTech and I will enjoy working there.
+                   </p> 
+           </div>
+           <div className={styles.card}>
+            <h1 className={styles.smalltitle}>
+            About my Education
+            </h1>
+              <h2>Software Development Degree, IT Support Higher Certificate</h2>
+                <p>I recently completed the IIE&apos;s
+                   Bachelor of Computer and Information Sciences in Application Development. The degree focused on software 
+                   development, database creation and hosting, application security, and cloud computing.
+                   The software development modules focused on Mean stack and .net core development. The more theory-based modules focused
+                    on data structure and algorithms,
+                   project management, and OOP programming principles.The higher certificate focused on IT Support Services, business communication and end-user computing.
+                 </p>
+               
+                 <p>
+                 I completed both the Degree and Higher Certificate at an average above80% with distinction.
+                 </p>
+                 <p>For more detail, My transcripts and certificates are attached in the link below:</p>
+                 <a href="" className={styles.linkstyles}>Transcripts and Certificates</a>
+           </div>
+          
+           
+
+
+        </div>
+
+
+        </section>
+
+        <section className={styles.lastsection}>
+
+        <div className={styles.grid}>
+        <div className={styles.widecard}>
+            <h1 className={styles.smalltitle}>
+            About My personal life
+            </h1>
+              <h2>Home Automation, DIY, and Baking....</h2>
+                <p>When I’m not developing software, I use my tech skills for things that interest me in daily life, such as home automation.
+                   I’m on a mission to convert my parents house to a smart home to make their lives easier and make the house more efficient,
+                    there are many projects I’m currently working on – from virtualizing everything I possibly can in Proxmox to setting up
+                     sensors that trigger things in HomeAssistant
+                </p>    
+                <p>I also enjoy making things myself, especially if it costs less and works better!</p>
+                <p>And who doesn’t like a good dessert? baking is great, even if I’m terrible at it most of the time…  but 
+                  I’m getting better…  chat with me , maybe I’ll share a recipe.</p> 
+           </div>
+
+        </div>
+
+        </section>
         
 
       </main>
